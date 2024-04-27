@@ -1,0 +1,30 @@
+.gradient-custom-3 {
+  background:  #2c2c2c;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-header h1::after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #424A4A;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
